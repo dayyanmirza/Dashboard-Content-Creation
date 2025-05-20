@@ -1,0 +1,5 @@
+streamlit>=1.34
+pandas
+python-dateutil        #-- for robust timestamp parsing
+transformers           # (only when you add sentiment)
+torch                  # ^
