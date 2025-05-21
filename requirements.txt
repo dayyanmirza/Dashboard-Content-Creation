@@ -3,3 +3,4 @@ pandas
 python-dateutil        #-- for robust timestamp parsing
 transformers           # (only when you add sentiment)
 torch                  # ^
+numpy<2
