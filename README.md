@@ -18,5 +18,5 @@ Welcome to the **Dashboard Content Creation** project! This repository contains 
 2. Open your browser to interact with the dashboard.
 3. Make sure you import your TikTok data instead of using mine if you want to analyse your own stats!
 
-Furthermore, if you would just like to check out the app just click this link: https://dashboard-content-creation-8rkkkjtpaudjqqrkh99d4z.streamlit.app/
+Furthermore, if you would just like to check out the dashboard just click this link: https://dashboard-content-creation-8rkkkjtpaudjqqrkh99d4z.streamlit.app/
 
