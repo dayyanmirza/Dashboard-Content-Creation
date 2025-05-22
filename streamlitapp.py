@@ -5,7 +5,7 @@ import re
 from transformers import pipeline
 
 BASE_DIR = Path(__file__).resolve().parent
-DATA_DIR = BASE_DIR / "TikTok"
+DATA_DIR = BASE_DIR / "Tiktok"
 
 # Helper functions
 def parse_comments_file(path: Path) -> pd.DataFrame:
@@ -271,5 +271,5 @@ if not posts_df.empty:
         st.write("Sound column missing for this chart.")
 
 else:
-    st.warning("Posts data is empty or could not be loaded. Ensure 'Posts.txt' is in the 'TikTok' directory.")
+    st.warning("Posts data is empty or could not be loaded. Ensure 'Posts.txt' is in the 'Tiktok' directory.")
 
