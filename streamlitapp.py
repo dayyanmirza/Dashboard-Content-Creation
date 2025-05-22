@@ -162,7 +162,7 @@ def load_effects() -> pd.DataFrame:
 
 @st.cache_resource(show_spinner=False)
 def get_sentiment_model():
-    return pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english", device=1)
+    return pipeline("sentiment-analysis", model="distilbert-base-uncased-finetuned-sst-2-english", device='cpu')
 
 
 @st.cache_data
