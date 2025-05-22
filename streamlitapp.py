@@ -187,7 +187,7 @@ st.markdown(
 
 comments_df = load_comments()
 effects_df = load_effects()
-posts_df = load_posts() # Load your posts data
+posts_df = load_posts() 
 
 
 left, right = st.columns(2)
@@ -271,5 +271,5 @@ if not posts_df.empty:
         st.write("Sound column missing for this chart.")
 
 else:
-    st.warning("Posts data is empty or could not be loaded. Ensure `Posts.txt` is in the `TikTok` directory.")
+    st.warning("Posts data is empty or could not be loaded. Ensure 'Posts.txt' is in the 'TikTok' directory.")
 
